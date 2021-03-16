@@ -1,4 +1,7 @@
-  public int[] plusOne(int[] digits) {
+package com.leetcode.demo.array;
+
+public class L066PlusOne {
+    public int[] plusOne(int[] digits) {
         int n = digits.length;
         for (int i = n - 1; i >= 0; i--) {
             // 小于9直接加1,返回
@@ -14,3 +17,4 @@
         newNumber[0] = 1;
         return newNumber;
     }
+}
